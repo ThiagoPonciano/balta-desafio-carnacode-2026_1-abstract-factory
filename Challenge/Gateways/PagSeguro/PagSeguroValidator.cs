@@ -1,6 +1,6 @@
 ﻿using System;
 
-public class PagSeguroValidator : ICardValidator
+public class PagSeguroValidator : IPaymentValidator
 {
     public bool ValidateCard(string cardNumber)
     {

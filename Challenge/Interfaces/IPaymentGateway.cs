@@ -2,7 +2,7 @@
 
 public interface IPaymentGatewayFactory
 {
-    ICardValidator CreateCardValidator();
+    IPaymentValidator CreateCardValidator();
     IPaymentProcessor CreatePaymentProcessor();
-    ITransactionLogger CreateTransactionLogger();
+    IPaymentLogger CreateTransactionLogger();
 }

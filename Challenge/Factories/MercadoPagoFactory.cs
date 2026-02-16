@@ -2,9 +2,9 @@
 
 public class MercadoPagoFactory : IPaymentGatewayFactory
 {
-    public ICardValidator CreateCardValidator() => new MercadoPagoValidator();
+    public IPaymentValidator CreateCardValidator() => new MercadoPagoValidator();
 
     public IPaymentProcessor CreatePaymentProcessor() => new MercadoPagoProcessor();
 
-    public ITransactionLogger CreateTransactionLogger() => new MercadoPagoLogger();
+    public IPaymentLogger CreateTransactionLogger() => new MercadoPagoLogger();
 }

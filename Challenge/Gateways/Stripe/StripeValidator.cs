@@ -1,6 +1,6 @@
 ﻿using System;
 
-public class StripeValidator : ICardValidator
+public class StripeValidator : IPaymentValidator
 {
     public bool ValidateCard(string cardNumber)
     {

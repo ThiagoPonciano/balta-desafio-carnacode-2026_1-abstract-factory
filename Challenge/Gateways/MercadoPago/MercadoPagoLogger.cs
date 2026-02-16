@@ -1,6 +1,6 @@
 ﻿using System;
 
-public class MercadoPagoLogger : ITransactionLogger
+public class MercadoPagoLogger : IPaymentLogger
 {
     public void Log(string message)
     {

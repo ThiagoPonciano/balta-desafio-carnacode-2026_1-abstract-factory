@@ -1,6 +1,6 @@
 ﻿using System;
 
-public class PagSeguroLogger : ITransactionLogger
+public class PagSeguroLogger : IPaymentLogger
 {
     public void Log(string message)
     {

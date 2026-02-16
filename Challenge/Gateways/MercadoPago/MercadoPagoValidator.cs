@@ -1,6 +1,6 @@
 ﻿using System;
 
-public class MercadoPagoValidator : ICardValidator
+public class MercadoPagoValidator : IPaymentValidator
 {
     public bool ValidateCard(string cardNumber)
     {

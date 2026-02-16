@@ -1,6 +1,6 @@
 ﻿using System;
 
-public class StripeLogger : ITransactionLogger
+public class StripeLogger : IPaymentLogger
 {
     public void Log(string message)
     {
